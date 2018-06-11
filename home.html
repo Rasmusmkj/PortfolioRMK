@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300,200,100,900" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style_1.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+<audio id="audioplay" src="Background.wav" preload="auto"></audio>
+<a href="javascript:play_single_sound();">>Klik her for extra sprødhed</a>
+
+
+<script>
+	function play_single_sound() {
+		document.getElementById('audioplay').play();
+	}
+</script>
+
+        <div id="main_menu" class="main_menu">
+
+            <div class="container">
+
+                <div class="logo">
+                    <a href="home.html">
+                    <img id="logo" src="img/R_navbar_logo.png" alt="Navigation Logo">
+                    </a>
+                </div>
+
+                <nav class="right" style="width: auto;">
+
+                    <ul>
+                        <li class="first active"><a href="home.html">HOME</a></li>
+                        <li><a href="portfolio.html">PORTFOLIO</a></li>
+                        <li class="last"><a href="CV.pdf" target="_blank">ABOUT ME</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+<h1> velkommen til mit portfolio-site!</h1>
+    <div id="splash">
+        <div class="splash_container">
+            <a href="portfolio.html"><img src="img/splash.jpg" alt="Splash">
+        </a>
+        </div>
+    </div>
+
+<footer>
+        <div id="footer">
+            <div>
+                <a href="https://www.facebook.com/Roldsen" target="_blank"><img src="facebook_icon.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/rasmuskjeldsenjh/"  target="_blank"><img src="instagram_icon.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/rasmus-kjeldsen-774bb4105/" target="_blank"><img src="linkedin_icon.png" alt="LinkedIn"> </a>
+            </div>
+            <p style="font-size:15px">GRAPHIC DESIGN | ANIMATION | PHOTO EDITING</p>
+            <p style="font-size:10px">© RASMUS MOLDBERG KJELDSEN 2018</p>
+        </div>
+    </footer>
+</body>
+
+
+</html>
